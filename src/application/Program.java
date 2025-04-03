@@ -34,8 +34,12 @@ public class Program {
 		sellerDao.insert(newSeller);
 		System.out.println("Inserido, id: " + newSeller.getId());
 		
+		System.out.println("______TEST 5: SELLER.UPDATE________");
+		seller = sellerDao.findById(1);
+		seller.setName("Martha Waine");
+		sellerDao.update(seller);
+		System.out.println("Update completed");
 		
-		//FALTA COMMITAR
 	}
 
 }
