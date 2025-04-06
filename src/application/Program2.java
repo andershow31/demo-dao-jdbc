@@ -10,6 +10,11 @@ public class Program2 {
 
 	public static void main(String[] args) {
 		DepartmentDao dep = DaoFactory.createDepartmentDao();
+		System.out.println("________TEST DEPARTMENT.UPDATE________");
+		
+		
+		
+		
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("________TEST DEPARTMENT.INSERT________");
