@@ -12,6 +12,9 @@ public class Program2 {
 		DepartmentDao dep = DaoFactory.createDepartmentDao();
 		System.out.println("________TEST DEPARTMENT.UPDATE________");
 		
+		System.out.println("________TEST DEPARTMENT.FINDBYID________");
+		Department department = dep.findById(5);
+		System.out.println("Founded department: " + department);
 		
 		
 		
