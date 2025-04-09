@@ -26,6 +26,15 @@ public class Program2 {
 		}
 		
 		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("________TEST DEPARTMENT.DELETE________");
+		System.out.println("Department delete test, enter the department id: ");
+		int deptodelete = sc.nextInt();
+		dep.deleteById(deptodelete);
+		
+		
+		
 		System.out.println("________TEST DEPARTMENT.INSERT________");
 		System.out.println("Department insert test, enter the department id: ");
 		int depId = sc.nextInt();
