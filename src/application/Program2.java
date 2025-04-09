@@ -1,5 +1,6 @@
 package application;
 
+import java.util.List;
 import java.util.Scanner;
 
 import model.dao.DaoFactory;
@@ -19,8 +20,10 @@ public class Program2 {
 		department = dep.findById(5);
 		System.out.println("Founded department: " + department);
 		
-		
-		
+		System.out.println("________TEST DEPARTMENT.FINDALL________");
+		for(Department dept: dep.findAll()) {
+			System.out.println(dept);
+		}
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("________TEST DEPARTMENT.INSERT________");
